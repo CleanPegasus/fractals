@@ -6,7 +6,7 @@ foo = tu.Turtle()
 foo.left(90)
 foo.speed(1000)
 
-val = 60
+val = 45
 
 theta = int(360/val)
 
@@ -19,11 +19,11 @@ def draw(l):
     else:
 
         foo.forward(l)
-        foo.left(30)
-        draw(3 * l/4)
-        foo.right(60)
-        draw(3 * l/4)
-        foo.left(30)
+        foo.left(20)
+        draw(7 * l/11)
+        foo.right(40)
+        draw(7 * l/11)
+        foo.left(20)
         foo.backward(l)
 
 
